@@ -26,6 +26,7 @@
 
 		<label for='image'>User Image: </label>
 		<input type='file' name='image' id='image' /><br />	
+		<img class='thumbnail' src='<?= base_url(); ?>/public/img/user/<?= $profile["image"]; ?>'>
 
 		<input type='hidden' name='username' value='<?= $user["username"]; ?>'>
 		<input type='hidden' name='uid' value='<?= $user["uid"]; ?>'>

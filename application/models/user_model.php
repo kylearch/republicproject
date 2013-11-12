@@ -38,7 +38,7 @@ class User_model extends CI_Model
 
 	public function load($uid)
 	{
-		$query = $this->db->query("SELECT `uid`, `username`, `email`, `first_name`, `last_name` FROM `users` WHERE `uid`='$uid'");
+		$query = $this->db->query("SELECT `uid`, `username`, `email`, `first_name`, `last_name`, `image` FROM `users` WHERE `uid`='$uid'");
 		$result = $query->row_array();
 		return $result;
 	}

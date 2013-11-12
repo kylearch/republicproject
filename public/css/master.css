@@ -129,6 +129,16 @@ input[type=file] {
 	color:#FFFFFF;
 }
 
+.thumbnail {
+	position:relative;
+	float:right;
+	top:-25px;
+	max-height:50px;
+	max-width:100px;
+	margin-right:30px;
+	background:#CCCCCC;
+}
+
 input[type=submit] {
 	width:50%;
 	margin-bottom:0px;
